@@ -1,0 +1,33 @@
+{
+  "name": "ecole-directeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmberAndClock/ecole-directeapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmberAndClock/ecole-directeapi/issues"
+  },
+  "homepage": "https://github.com/AmberAndClock/ecole-directeapi#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^2.14.1",
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "nodemon": "^2.0.4"
+  }
+}
