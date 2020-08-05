@@ -20,7 +20,7 @@
   "homepage": "https://github.com/AmberAndClock/ecole-directeapi#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "fastify": "^2.14.1",
+    "fastify": "^2.15.1",
     "form-data": "^3.0.0",
     "node-fetch": "^2.6.0"
   },
